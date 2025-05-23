@@ -1,8 +1,8 @@
-import app from './src/app';
-import { getEnv } from './src/util/envUtil';
+import app from "./src/app";
+import { getEnv } from "./src/util/envUtil";
 
 function startServer() {
-  const PORT = getEnv('PORT', '3000');
+  const PORT = getEnv("PORT", "3000");
 
   app.listen(PORT, () => {
     console.log("=================================");

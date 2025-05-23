@@ -1,9 +1,9 @@
-import dotenv from 'dotenv';
-dotenv.config({ path: './.env' });
+import dotenv from "dotenv";
+dotenv.config({ path: "./.env" });
 
 export function getEnv(key: string, defaultValue: string) {
   const env = process.env[key];
-  if (env === undefined) { 
+  if (env === undefined) {
     return defaultValue;
   }
   if (env === undefined) {
