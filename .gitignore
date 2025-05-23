@@ -2,10 +2,10 @@
 .env
 
 # node_modules
-node_modules
+node_modules/
 
 # build
-dist
+dist/
 
 # yarn
 .yarn/cache
